@@ -22,6 +22,6 @@
 # m h  dom mon dow   command
 30 5 * * 1-5 curl http://localhost:5005/K\%C3\%B8kken/leave/Badev\%C3\%A6relse && curl http://localhost:5005/Repo/leave/Badev\%C3\%A6relse && curl http://localhost:5005/Stue/leave/Badev\%C3\%A6relse && curl http://localhost:5005/Badev\%C3\%A6relse/Volume/25 && curl http://localhost:5005/Badev\%C3\%A6relse/tunein/play/37309 > /dev/null 2>&1
 10 06 * * 1-5 curl http://localhost:5005/K\%C3\%B8kken/Volume/25 && curl http://localhost:5005/K\%C3\%B8kken/join/Badev\%C3\%A6relse > /dev/null 2>&1
-30 06 * * 1-5 curl http://localhost:5005/Repo/Volume/25 && curl http://localhost:5005/Repo/join/Badev\%C3\%A6relse && curl http://localhost:5005/Stue/Volume/40 && curl http://localhost:5005/Stue/join/Badev\%C3\%A6relse > /dev/null 2>&1
-15 08 * * 1-5 curl http://localhost:5005/Badev\%C3\%A6relse/pause > /dev/null 2>&1
+30 06 * * 1-5 curl http://localhost:5005/Repo/Volume/25 && curl http://localhost:5005/Repo/join/Badev\%C3\%A6relse && curl http://localhost:5005/Stue/Volume/30 && curl http://localhost:5005/Stue/join/Badev\%C3\%A6relse > /dev/null 2>&1
+15 08 * * 1-5 curl http://localhost:5005/Badev\%C3\%A6relse/pause && curl http://localhost:5005/Repo/leave/Badev\%C3\%A6relse && curl http://localhost:5005/Stue/leave/Badev\%C3\%A6relse && curl http://localhost:5005/K\%C3\%B8kken/leave/Badev\%C3\%A6relse > /dev/null 2>&1
 
